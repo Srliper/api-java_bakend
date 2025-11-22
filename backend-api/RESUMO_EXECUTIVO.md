@@ -60,8 +60,8 @@
 
 ## 📋 INFORMAÇÕES PARA PREENCHER NO CADERNO
 
-**Aluno:** [PREENCHER]  
-**RU:** [PREENCHER]  
+**Aluno:** Luis Fernando Bedim  
+**RU:** 4555952  
 **Data de Entrega:** [PREENCHER]  
 **Assinatura:** [PREENCHER]
 
@@ -98,7 +98,7 @@
 {
   "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
   "dataEntrega": "2025-12-10",
-  "responsavel": "SEU NOME COMPLETO - RU: SEU RU"
+  "responsavel": "Luis Fernando Bedim - RU: 4555952"
 }
 ```
 
@@ -107,11 +107,11 @@
 {
   "nome": "Trabalho Atualizado - API RESTful de Tarefas",
   "dataEntrega": "2025-12-15",
-  "responsavel": "SEU NOME COMPLETO - RU: SEU RU"
+  "responsavel": "Luis Fernando Bedim - RU: 4555952"
 }
 ```
 
-**⚠️ IMPORTANTE:** Substitua "SEU NOME COMPLETO" e "SEU RU" pelos seus dados reais!
+**✅ DADOS DO ALUNO:** Luis Fernando Bedim - RU: 4555952
 
 ---
 

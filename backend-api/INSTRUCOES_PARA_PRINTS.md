@@ -6,9 +6,9 @@ Este documento fornece instruções passo a passo para tirar os prints corretos 
 
 ## ⚠️ IMPORTANTE: ANTES DE COMEÇAR
 
-1. **Substitua nos exemplos:**
-   - `[SEU NOME COMPLETO]` pelo seu nome real
-   - `[SEU RU]` pelo seu RU real
+1. **Dados do Aluno:**
+   - Nome: Luis Fernando Bedim
+   - RU: 4555952
 
 2. **Certifique-se de que:**
    - A aplicação Spring Boot está rodando
@@ -31,7 +31,7 @@ Este documento fornece instruções passo a passo para tirar os prints corretos 
    {
      "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
      "dataEntrega": "2025-12-10",
-     "responsavel": "SEU NOME COMPLETO - RU: SEU RU"
+     "responsavel": "Luis Fernando Bedim - RU: 4555952"
    }
    ```
 
@@ -91,7 +91,7 @@ Este documento fornece instruções passo a passo para tirar os prints corretos 
    {
      "nome": "Trabalho Atualizado - API RESTful de Tarefas",
      "dataEntrega": "2025-12-15",
-     "responsavel": "SEU NOME COMPLETO - RU: SEU RU"
+     "responsavel": "Luis Fernando Bedim - RU: 4555952"
    }
    ```
 
@@ -185,11 +185,11 @@ Cada print deve mostrar claramente:
 ┌─────────────────────────────────────┐
 │ POST  http://localhost:8080/api/... │
 │ Headers: Content-Type: application/ │
-│ Body: { "nome": "...", "responsavel": "SEU NOME - RU: SEU RU" } │
+│ Body: { "nome": "...", "responsavel": "Luis Fernando Bedim - RU: 4555952" } │
 ├─────────────────────────────────────┤
 │ Status: 201 Created                 │
 │ Body: { "id": 1, "nome": "...",     │
-│         "responsavel": "SEU NOME - RU: SEU RU" } │
+│         "responsavel": "Luis Fernando Bedim - RU: 4555952" } │
 └─────────────────────────────────────┘
 ```
 

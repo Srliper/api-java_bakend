@@ -203,7 +203,7 @@ http://localhost:8080/api/tarefas
    {
      "nome": "Trabalho de Desenvolvimento Web Backend",
      "dataEntrega": "2025-12-10",
-     "responsavel": "Seu Nome - RU: SeuRU"
+     "responsavel": "Luis Fernando Bedim - RU: 4555952"
    }
    ```
 
@@ -223,7 +223,7 @@ http://localhost:8080/api/tarefas
    {
      "nome": "Trabalho Atualizado",
      "dataEntrega": "2025-12-15",
-     "responsavel": "Seu Nome - RU: SeuRU"
+     "responsavel": "Luis Fernando Bedim - RU: 4555952"
    }
    ```
 

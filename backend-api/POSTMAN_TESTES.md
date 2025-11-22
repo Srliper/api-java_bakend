@@ -22,7 +22,7 @@ Content-Type: application/json
 {
   "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
   "dataEntrega": "2025-12-10",
-  "responsavel": "Seu Nome Completo - RU: SeuRU"
+  "responsavel": "Luis Fernando Bedim - RU: 4555952"
 }
 ```
 
@@ -30,7 +30,7 @@ Content-Type: application/json
 - Status: `201 Created`
 - Response body com a tarefa criada incluindo o ID gerado
 
-**⚠️ IMPORTANTE:** Substitua "Seu Nome Completo" e "SeuRU" pelos seus dados reais para atender aos critérios de avaliação.
+**✅ DADOS DO ALUNO:** Luis Fernando Bedim - RU: 4555952
 
 ---
 
@@ -81,7 +81,7 @@ Content-Type: application/json
 {
   "nome": "Trabalho Atualizado - API RESTful de Tarefas",
   "dataEntrega": "2025-12-15",
-  "responsavel": "Seu Nome Completo - RU: SeuRU"
+  "responsavel": "Luis Fernando Bedim - RU: 4555952"
 }
 ```
 
