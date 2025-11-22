@@ -2,6 +2,8 @@ package com.example.backendapi.controller;
 
 import com.example.backendapi.model.Tarefa;
 import com.example.backendapi.repository.TarefaRepository;
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,9 +27,9 @@ public class TarefaController {
     }
 
     @PostMapping
-    public ResponseEntity<Tarefa> criarTarefa(@RequestBody Tarefa tarefa) {
+    public ResponseEntity<Tarefa> criarTarefa(@Valid @RequestBody Tarefa tarefa) {
         Tarefa salvo = repository.save(tarefa);
-        return ResponseEntity.ok(salvo);
+        return ResponseEntity.status(HttpStatus.CREATED).body(salvo);
     }
 
     @GetMapping
@@ -43,7 +45,7 @@ public class TarefaController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Tarefa> atualizarTarefa(@PathVariable Long id, @RequestBody Tarefa dadosAtualizados) {
+    public ResponseEntity<Tarefa> atualizarTarefa(@PathVariable Long id, @Valid @RequestBody Tarefa dadosAtualizados) {
         return repository.findById(id)
                 .map(tarefa -> {
                     tarefa.setNome(dadosAtualizados.getNome());

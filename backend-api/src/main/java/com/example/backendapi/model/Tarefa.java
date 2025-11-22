@@ -7,6 +7,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 import java.time.LocalDate;
 
@@ -18,12 +21,19 @@ public class Tarefa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "O nome da tarefa é obrigatório")
+    @Size(min = 3, max = 200, message = "O nome deve ter entre 3 e 200 caracteres")
+    @Column(nullable = false, length = 200)
     private String nome;
 
-    @Column(name = "data_entrega")
+    @NotNull(message = "A data de entrega é obrigatória")
+    @Column(name = "data_entrega", nullable = false)
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dataEntrega;
 
+    @NotBlank(message = "O responsável é obrigatório")
+    @Size(min = 3, max = 100, message = "O responsável deve ter entre 3 e 100 caracteres")
+    @Column(nullable = false, length = 100)
     private String responsavel;
 
     public Tarefa() {
