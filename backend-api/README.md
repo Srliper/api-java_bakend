@@ -98,7 +98,7 @@ http://localhost:8080/api/tarefas
 ```json
 {
   "nome": "Implementar API REST",
-  "dataEntrega": "2025-12-15",
+  "dataEntrega": "2025-12-12",
   "responsavel": "João Silva - RU: 1234567"
 }
 ```
@@ -108,7 +108,7 @@ http://localhost:8080/api/tarefas
 {
   "id": 1,
   "nome": "Implementar API REST",
-  "dataEntrega": "2025-12-15",
+  "dataEntrega": "2025-12-12",
   "responsavel": "João Silva - RU: 1234567"
 }
 ```
@@ -122,7 +122,7 @@ http://localhost:8080/api/tarefas
   {
     "id": 1,
     "nome": "Implementar API REST",
-    "dataEntrega": "2025-12-15",
+    "dataEntrega": "2025-12-12",
     "responsavel": "João Silva - RU: 1234567"
   },
   {
@@ -144,7 +144,7 @@ http://localhost:8080/api/tarefas
 {
   "id": 1,
   "nome": "Implementar API REST",
-  "dataEntrega": "2025-12-15",
+  "dataEntrega": "2025-12-12",
   "responsavel": "João Silva - RU: 1234567"
 }
 ```
