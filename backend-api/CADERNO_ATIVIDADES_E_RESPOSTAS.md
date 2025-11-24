@@ -97,9 +97,9 @@ http://localhost:8080/api/tarefas
 - **Body (raw JSON):**
 ```json
 {
-  "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
-  "dataEntrega": "2025-12-10",
-  "responsavel": "Luis Fernando Bedim - RU: 4555952"
+  "nome": "Desenvolvimento da API",
+  "dataEntrega": "2025-12-12",
+  "responsavel": "Luis 4555952"
 }
 ```
 
@@ -107,9 +107,9 @@ http://localhost:8080/api/tarefas
 ```json
 {
   "id": 1,
-  "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
-  "dataEntrega": "2025-12-10",
-  "responsavel": "Luis Fernando Bedim - RU: 4555952"
+  "nome": "Desenvolvimento da API",
+  "dataEntrega": "2025-12-12",
+  "responsavel": "Luis 4555952"
 }
 ```
 
@@ -139,9 +139,9 @@ http://localhost:8080/api/tarefas
 [
   {
     "id": 1,
-    "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
-    "dataEntrega": "2025-12-10",
-    "responsavel": "Luis Fernando Bedim - RU: 4555952"
+    "nome": "Desenvolvimento da API",
+    "dataEntrega": "2025-12-12",
+    "responsavel": "Luis 4555952"
   }
 ]
 ```
@@ -170,9 +170,9 @@ http://localhost:8080/api/tarefas
 - **Body (raw JSON):**
 ```json
 {
-  "nome": "Trabalho Atualizado - API RESTful de Tarefas",
-  "dataEntrega": "2025-12-15",
-  "responsavel": "Luis Fernando Bedim - RU: 4555952"
+  "nome": "Desenvolvimento da API",
+  "dataEntrega": "2025-12-12",
+  "responsavel": "Luis 4555952"
 }
 ```
 
@@ -180,9 +180,9 @@ http://localhost:8080/api/tarefas
 ```json
 {
   "id": 1,
-  "nome": "Trabalho Atualizado - API RESTful de Tarefas",
-  "dataEntrega": "2025-12-15",
-  "responsavel": "Luis Fernando Bedim - RU: 4555952"
+  "nome": "Desenvolvimento da API",
+  "dataEntrega": "2025-12-12",
+  "responsavel": "Luis 4555952"
 }
 ```
 

@@ -20,9 +20,9 @@ Content-Type: application/json
 **Body (raw JSON):**
 ```json
 {
-  "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
-  "dataEntrega": "2025-12-10",
-  "responsavel": "Luis Fernando Bedim - RU: 4555952"
+  "nome": "Desenvolvimento da API",
+  "dataEntrega": "2025-12-12",
+  "responsavel": "Luis 4555952"
 }
 ```
 

@@ -29,9 +29,9 @@ Este documento fornece instruções passo a passo para tirar os prints corretos 
    - Cole o JSON:
    ```json
    {
-     "nome": "Trabalho de Desenvolvimento Web Backend - API RESTful",
-     "dataEntrega": "2025-12-10",
-     "responsavel": "Luis Fernando Bedim - RU: 4555952"
+     "nome": "Desenvolvimento da API",
+     "dataEntrega": "2025-12-12",
+     "responsavel": "Luis 4555952"
    }
    ```
 
@@ -89,9 +89,9 @@ Este documento fornece instruções passo a passo para tirar os prints corretos 
    - Cole o JSON:
    ```json
    {
-     "nome": "Trabalho Atualizado - API RESTful de Tarefas",
-     "dataEntrega": "2025-12-15",
-     "responsavel": "Luis Fernando Bedim - RU: 4555952"
+     "nome": "Desenvolvimento da API",
+     "dataEntrega": "2025-12-12",
+     "responsavel": "Luis 4555952"
    }
    ```
 
